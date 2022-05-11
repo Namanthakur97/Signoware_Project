@@ -1,174 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220511 14:24:59.540" rpa="false" schemaversion="3">
-<suite id="s1" name="Product Range Suite" source="C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\Product_Range_suite\product_range_suite.robot">
-<test id="s1-t1" name="TC4" line="14">
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220511 14:48:07.860" rpa="false" schemaversion="3">
+<suite id="s1" name="Create New Account Suite" source="C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\create_account_suite\create_new_account_suite.robot">
+<test id="s1-t1" name="Create New Account Test" line="14">
 <kw name="Launch Browser" library="Common_Funcationality" type="SETUP">
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <arg>Path</arg>
 <arg>${EXECDIR}${/}driver</arg>
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
-<msg timestamp="20220511 14:24:59.822" level="INFO">Environment variable 'Path' set to value 'C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Naman Thakur\AppData\Local\Microsoft\WindowsApps1;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\Users\Naman Thakur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Naman Thakur\AppData\Local\GitHubDesktop\bin;;C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\driver'.</msg>
-<status status="PASS" starttime="20220511 14:24:59.822" endtime="20220511 14:24:59.822"/>
+<msg timestamp="20220511 14:48:08.109" level="INFO">Environment variable 'Path' set to value 'C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Naman Thakur\AppData\Local\Microsoft\WindowsApps1;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\Users\Naman Thakur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Naman Thakur\AppData\Local\GitHubDesktop\bin;;C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\driver'.</msg>
+<status status="PASS" starttime="20220511 14:48:08.109" endtime="20220511 14:48:08.109"/>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220511 14:24:59.823" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20220511 14:24:59.823" endtime="20220511 14:25:01.363"/>
+<msg timestamp="20220511 14:48:08.110" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20220511 14:48:08.110" endtime="20220511 14:48:09.580"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220511 14:25:01.363" endtime="20220511 14:25:01.490"/>
+<status status="PASS" starttime="20220511 14:48:09.580" endtime="20220511 14:48:09.702"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>30s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220511 14:25:01.491" endtime="20220511 14:25:01.495"/>
+<status status="PASS" starttime="20220511 14:48:09.702" endtime="20220511 14:48:09.704"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>${EXECDIR}${/}screenshot</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20220511 14:25:01.496" endtime="20220511 14:25:01.497"/>
+<status status="PASS" starttime="20220511 14:48:09.704" endtime="20220511 14:48:09.718"/>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220511 14:25:01.498" level="INFO">Opening url 'https://signoraware.com/'</msg>
-<status status="PASS" starttime="20220511 14:25:01.497" endtime="20220511 14:25:08.161"/>
+<msg timestamp="20220511 14:48:09.719" level="INFO">Opening url 'https://signoraware.com/'</msg>
+<status status="PASS" starttime="20220511 14:48:09.718" endtime="20220511 14:48:17.385"/>
 </kw>
-<status status="PASS" starttime="20220511 14:24:59.821" endtime="20220511 14:25:08.161"/>
+<status status="PASS" starttime="20220511 14:48:08.109" endtime="20220511 14:48:17.385"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>link=Sign In</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:08.162" level="INFO">Clicking element 'link=Sign In'.</msg>
-<status status="PASS" starttime="20220511 14:25:08.162" endtime="20220511 14:25:10.097"/>
+<msg timestamp="20220511 14:48:17.386" level="INFO">Clicking element 'link=Sign In'.</msg>
+<status status="PASS" starttime="20220511 14:48:17.386" endtime="20220511 14:48:19.077"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>link=Create an Account</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220511 14:48:19.077" level="INFO">Clicking element 'link=Create an Account'.</msg>
+<status status="PASS" starttime="20220511 14:48:19.077" endtime="20220511 14:48:28.510"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
-<arg>id=email</arg>
+<arg>id=firstname</arg>
+<arg>Naman</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220511 14:48:28.511" level="INFO">Typing text 'Naman' into text field 'id=firstname'.</msg>
+<status status="PASS" starttime="20220511 14:48:28.511" endtime="20220511 14:48:28.612"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=lastname</arg>
+<arg>Thakur</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220511 14:48:28.613" level="INFO">Typing text 'Thakur' into text field 'id=lastname'.</msg>
+<status status="PASS" starttime="20220511 14:48:28.613" endtime="20220511 14:48:28.697"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=email_address</arg>
 <arg>namanthakur1997@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:10.098" level="INFO">Typing text 'namanthakur1997@gmail.com' into text field 'id=email'.</msg>
-<status status="PASS" starttime="20220511 14:25:10.097" endtime="20220511 14:25:10.313"/>
+<msg timestamp="20220511 14:48:28.697" level="INFO">Typing text 'namanthakur1997@gmail.com' into text field 'id=email_address'.</msg>
+<status status="PASS" starttime="20220511 14:48:28.697" endtime="20220511 14:48:28.824"/>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
-<arg>id=pass</arg>
+<arg>id=password</arg>
 <arg>Vento.123</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:10.314" level="INFO">Typing password into text field 'id=pass'.</msg>
-<msg timestamp="20220511 14:25:10.377" level="INFO">Temporally setting log level to: NONE</msg>
-<msg timestamp="20220511 14:25:10.451" level="INFO">Log level changed from NONE to INFO.</msg>
-<status status="PASS" starttime="20220511 14:25:10.314" endtime="20220511 14:25:10.451"/>
+<msg timestamp="20220511 14:48:28.826" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg timestamp="20220511 14:48:28.870" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220511 14:48:28.965" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220511 14:48:28.825" endtime="20220511 14:48:28.965"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>id=password-confirmation</arg>
+<arg>Vento.123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220511 14:48:28.966" level="INFO">Typing password into text field 'id=password-confirmation'.</msg>
+<msg timestamp="20220511 14:48:29.010" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220511 14:48:29.064" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220511 14:48:28.966" endtime="20220511 14:48:29.066"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>id=send2</arg>
+<arg>id=assistance_allowed_checkbox</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:10.453" level="INFO">Clicking element 'id=send2'.</msg>
-<status status="PASS" starttime="20220511 14:25:10.452" endtime="20220511 14:25:12.422"/>
+<msg timestamp="20220511 14:48:29.066" level="INFO">Clicking element 'id=assistance_allowed_checkbox'.</msg>
+<status status="PASS" starttime="20220511 14:48:29.066" endtime="20220511 14:48:29.116"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//span[text()="Create an Account"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220511 14:48:29.117" level="INFO">Clicking element 'xpath=//span[text()="Create an Account"]'.</msg>
+<status status="PASS" starttime="20220511 14:48:29.117" endtime="20220511 14:48:29.163"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220511 14:25:12.422" endtime="20220511 14:25:14.593"/>
+<status status="PASS" starttime="20220511 14:48:29.163" endtime="20220511 14:48:31.337"/>
 </kw>
-<status status="PASS" starttime="20220511 14:24:59.820" endtime="20220511 14:25:14.593"/>
+<status status="PASS" starttime="20220511 14:48:08.108" endtime="20220511 14:48:31.338"/>
 </test>
-<test id="s1-t2" name="TC2" line="22">
-<kw name="Launch Browser" library="Common_Funcationality" type="SETUP">
-<kw name="Append To Environment Variable" library="OperatingSystem">
-<arg>Path</arg>
-<arg>${EXECDIR}${/}driver</arg>
-<doc>Appends given ``values`` to environment variable ``name``.</doc>
-<msg timestamp="20220511 14:25:14.595" level="INFO">Environment variable 'Path' set to value 'C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Naman Thakur\AppData\Local\Microsoft\WindowsApps1;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\Users\Naman Thakur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Naman Thakur\AppData\Local\GitHubDesktop\bin;;C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\driver;C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\driver'.</msg>
-<status status="PASS" starttime="20220511 14:25:14.595" endtime="20220511 14:25:14.595"/>
-</kw>
-<kw name="Open Browser" library="SeleniumLibrary">
-<arg>browser=${BROWSER}</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220511 14:25:14.596" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20220511 14:25:14.596" endtime="20220511 14:25:16.051"/>
-</kw>
-<kw name="Maximize Browser Window" library="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220511 14:25:16.051" endtime="20220511 14:25:16.189"/>
-</kw>
-<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
-<arg>30s</arg>
-<doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220511 14:25:16.190" endtime="20220511 14:25:16.196"/>
-</kw>
-<kw name="Set Screenshot Directory" library="SeleniumLibrary">
-<arg>${EXECDIR}${/}screenshot</arg>
-<doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20220511 14:25:16.196" endtime="20220511 14:25:16.198"/>
-</kw>
-<kw name="Go To" library="SeleniumLibrary">
-<arg>url=${URL}</arg>
-<doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220511 14:25:16.199" level="INFO">Opening url 'https://signoraware.com/'</msg>
-<status status="PASS" starttime="20220511 14:25:16.198" endtime="20220511 14:25:23.440"/>
-</kw>
-<status status="PASS" starttime="20220511 14:25:14.595" endtime="20220511 14:25:23.441"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>xpath=//span[text()="Product Range"]</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:23.442" level="INFO">Clicking element 'xpath=//span[text()="Product Range"]'.</msg>
-<status status="PASS" starttime="20220511 14:25:23.442" endtime="20220511 14:25:27.183"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>partial link=Steelware</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:27.184" level="INFO">Clicking element 'partial link=Steelware'.</msg>
-<status status="PASS" starttime="20220511 14:25:27.183" endtime="20220511 14:25:27.559"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>partial link=Classic Micro Steel Bowl 800 ml. (Round)</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:27.561" level="INFO">Clicking element 'partial link=Classic Micro Steel Bowl 800 ml. (Round)'.</msg>
-<status status="PASS" starttime="20220511 14:25:27.560" endtime="20220511 14:25:33.671"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>id=attribute93</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:33.672" level="INFO">Clicking element 'id=attribute93'.</msg>
-<status status="PASS" starttime="20220511 14:25:33.672" endtime="20220511 14:25:33.864"/>
-</kw>
-<kw name="Select From List By Label" library="SeleniumLibrary">
-<arg>id=attribute93</arg>
-<arg>Red</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<msg timestamp="20220511 14:25:33.867" level="INFO">Selecting options from selection list 'id=attribute93' by label Red.</msg>
-<status status="PASS" starttime="20220511 14:25:33.865" endtime="20220511 14:25:34.209"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>id=product-addtocart-button</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220511 14:25:34.211" level="INFO">Clicking element 'id=product-addtocart-button'.</msg>
-<status status="PASS" starttime="20220511 14:25:34.210" endtime="20220511 14:25:34.439"/>
-</kw>
-<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
-<doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220511 14:25:34.441" endtime="20220511 14:25:36.866"/>
-</kw>
-<status status="PASS" starttime="20220511 14:25:14.594" endtime="20220511 14:25:36.867"/>
-</test>
-<doc>This suite will handle the range of products
-Test- TC_05</doc>
-<status status="PASS" starttime="20220511 14:24:59.542" endtime="20220511 14:25:36.870"/>
+<doc>This suite will handle the account creation details
+Test- TC-01</doc>
+<status status="PASS" starttime="20220511 14:48:07.862" endtime="20220511 14:48:31.340"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Product Range Suite">Product Range Suite</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Create New Account Suite">Create New Account Suite</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220511 14:24:59.817" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\Product_Range_suite\login.robot' on line 10: Setting 'Test Setup' is not allowed in resource file.</msg>
-<msg timestamp="20220511 14:24:59.818" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\Product_Range_suite\login.robot' on line 11: Setting 'Test Teardown' is not allowed in resource file.</msg>
-<msg timestamp="20220511 14:24:59.818" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\Product_Range_suite\product_range_suite.robot' on line 8: Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\Product_Range_suite\login.robot' on line 13: Resource file with 'Test Cases' section is invalid.</msg>
+<msg timestamp="20220511 14:48:08.105" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\create_account_suite\create_new_account_suite.robot' on line 10: Setting 'Test Setup' is not allowed in resource file.</msg>
+<msg timestamp="20220511 14:48:08.105" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\create_account_suite\create_new_account_suite.robot' on line 11: Setting 'Test Teardown' is not allowed in resource file.</msg>
+<msg timestamp="20220511 14:48:08.106" level="ERROR">Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\create_account_suite\create_new_account_suite.robot' on line 8: Error in file 'C:\Users\Naman Thakur\PycharmProjects\Signoware_Project\create_account_suite\create_new_account_suite.robot' on line 13: Resource file with 'Test Cases' section is invalid.</msg>
 </errors>
 </robot>
